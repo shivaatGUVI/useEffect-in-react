@@ -1,0 +1,38 @@
+.App {
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header {
+  margin-bottom: 100px;
+}
+
+.parent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.parent > div {
+  width: 20%;
+  height: 250px;
+  border: 1.5px solid black;
+  border-radius: 0.5rem;
+  display: grid;
+  align-content: center;
+  font-size: large;
+  cursor: pointer;
+}
+
+.parent > div:hover {
+  background-color: rgb(14, 10, 65);
+  color: white;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+}

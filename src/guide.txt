@@ -1,0 +1,5 @@
+1. What is useEffect and it's configurations?
+2. Component life cycle.
+3. How is useEffect excuted?
+4. What is Debouncing?
+5. Form data handling.
